@@ -32,7 +32,8 @@ export default function CardWithForm(props: {
     <Card className="w-[300px]   transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110 shadow-lg bg-white border-t-8 border-purple-500 border-l-8 ">
       <CardHeader>
         <div className="flex justify-center content-center items-center">
-          <img className=" w-[300px]" src={props.image}  alt="Post Image" />
+          {/* <img className=" w-[300px]" src={props.image}  alt="Post Image" /> */}
+          <Image className=" w-[300px]" src={props.image}  alt="Post Image"/>
         </div>
       </CardHeader>
       <CardContent>
